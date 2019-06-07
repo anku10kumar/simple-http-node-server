@@ -1,0 +1,14 @@
+
+Questions -
+
+1. What is a Node module?
+
+Answer: It is a set of functions you want to include in your application
+
+2. What is the main difference between exports and module.exports?
+
+Answer: You may use either module.exports or  exports within your Node app. If you want your module to be a specific object type, use module.exports. Otherwise, use exports. Using exports is recommended unless you are planning on having your module be a specific object type.
+
+3. Why is using exports recommended?
+
+Answer: Any reassignment of  exports will not be available outside of the module.
